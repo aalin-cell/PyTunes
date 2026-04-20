@@ -1,0 +1,12 @@
+from playfunction import playNote
+
+melody = [
+    ("E4",1), ("D4",1), ("C4",1), ("D4",1),
+    ("E4",1), ("E4",1), ("E4",2),
+    ("D4",1), ("D4",1), ("D4",2)
+]
+
+speed = 100
+
+for note, duration in melody:
+    playNote(note, duration, speed, "sine")
