@@ -21,16 +21,16 @@ if __name__ == '__main__':
 
     print("PyTunes: Checking Scale!")
     # main()
-    #
+
     # time.sleep(1.5)
     #
     # print("PyTunes: Playing Piece!")
     # playPiece()
     # time.sleep(1.5)
-    #
-    # print("PyTunes: Playing Anthem!")
-    # playAnthem()
-    #
-    # print("PyTunes: End of the play!")
+
+    print("PyTunes: Playing Anthem!")
+    playAnthem()
+
+    print("PyTunes: End of the play!")
 
 
