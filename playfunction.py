@@ -21,7 +21,7 @@ def playNote(note, noteDuration, pieceSpeed = 100, function = "sine"):
     else: # if number
         duration = quarter_note_time * noteDuration
 
-    command = f"SOUR1:APPL:{waveform} {frequency}, 1 VPP, 0 V"
+    command = f"SOUR1:APPL:{waveform} {frequency}, 30 mVPP, 0 V"
     device.write(command)
 
     device.write("OUTP1 ON")

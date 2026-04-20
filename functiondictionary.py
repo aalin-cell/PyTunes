@@ -6,6 +6,6 @@ function_dict = {
     "sine": "SIN",
     "square": "SQU",
     "triangle": "TRI",
-    "ramp": "RAMP"
+    # "ramp": "RAMP"
 
 }
